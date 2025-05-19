@@ -15,7 +15,7 @@ struct WelcomeView: View {
     var body: some View {
         VStack {
             VStack(spacing: 20) {
-                Text("Welcome Traveler")
+                Text("Welcome Traveler 🥹")
                     .font(.title)
                     .bold()
                 Text("You must be tired from carrying all that junk in your trunk...")

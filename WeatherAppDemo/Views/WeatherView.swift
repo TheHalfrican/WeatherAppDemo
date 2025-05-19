@@ -15,7 +15,7 @@ struct WeatherView: View {
         ZStack(alignment: .leading) {
             VStack {
                 VStack(alignment: .leading, spacing: 5) {
-                    Text(weather.name)
+                    Text(weather.name + "🥹")
                         .bold()
                         .font(.title)
                     
